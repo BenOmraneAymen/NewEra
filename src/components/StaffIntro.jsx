@@ -8,9 +8,9 @@ export default function StaffIntro() {
         delay="0.5"
         hidden={{ opacity: 0, x: -200 }}
         visible={{ opacity: 1, x: 0 }}
-        className="self-start lg:self-auto"
+        className=""
       >
-        <h2 className="text-xl lg:text-3xl font-medium text-slate-200 md:w-160 lg:w-180">
+        <h2 className="text-center lg:text-left text-xl lg:text-3xl font-medium text-slate-200 md:w-160 lg:w-180">
           A dedicated professional consistently staying abreast of emerging
           technologies in solar power to drive innovation and sustainability.
         </h2>
@@ -19,7 +19,7 @@ export default function StaffIntro() {
         delay="0.5"
         hidden={{ opacity: 0, x: 200 }}
         visible={{ opacity: 1, x: 0 }}
-        className="self-end lg:self-auto"
+        className=""
       >
         <img src={ceo2} alt="" className="w-100 md:w-140 lg:h-140 lg:w-160 rounded-lg shadow-black" />
       </Reveal>

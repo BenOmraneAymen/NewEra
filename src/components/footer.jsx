@@ -63,7 +63,7 @@ export default function Footer() {
             </div>
           </div>
       <div className="bg-back w-full h-20 self-end flex items-center justify-center text-slate-300 border-t-2 border-slate-300">
-        All Rights Reserved &copy; 2021
+        All Rights Reserved &copy; 2023
       </div>
     </>
   );

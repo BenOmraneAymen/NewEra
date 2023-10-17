@@ -9,9 +9,9 @@ export default function Introduction() {
           delay="0.5"
           hidden={{ opacity: 0, x: -200 }}
           visible={{ opacity: 1, x: 0 }}
-          className="self-start lg:self-auto"
+          className=""
         >
-          <div className="self-start text-xl md:text-3xl lg:text-5xl font-normal text-gray-400 my-1 lg:my-4 mx-2 lg:mx-8">
+          <div className="self-start text-center lg:text-left text-xl md:text-3xl lg:text-5xl font-normal w-100 md:w-auto text-gray-400 my-1 lg:my-4 mx-2 lg:mx-8">
             Empowering a sustainable future through innovative
             <p className="text-gray-200 font-medium">solar solutions</p>
           </div>
@@ -20,7 +20,7 @@ export default function Introduction() {
           delay="0.5"
           hidden={{ opacity: 0, x: 200 }}
           visible={{ opacity: 1, x: 0 }}
-          className="self-end lg:self-auto"
+          className=""
         >
           <img
             src={worker}
