@@ -11,7 +11,7 @@ export default function Introduction() {
           visible={{ opacity: 1, x: 0 }}
           className=""
         >
-          <div className="self-start text-center lg:text-left text-xl md:text-3xl lg:text-5xl font-normal w-100 md:w-auto text-gray-400 my-1 lg:my-4 mx-2 lg:mx-8">
+          <div className="self-start text-center lg:text-left    text-xl md:text-3xl lg:text-5xl font-normal w-100 md:w-auto text-gray-400 my-1 lg:my-4 mx-2 lg:mx-8">
             Empowering a sustainable future through innovative
             <p className="text-gray-200 font-medium">solar solutions</p>
           </div>
