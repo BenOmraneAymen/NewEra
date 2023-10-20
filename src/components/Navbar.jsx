@@ -1,10 +1,11 @@
 import logo from "../assets/logo.png";
 import DefaultDropdown from "./Dropdown";
-import worker1 from "../assets/worker1.jpeg";
-import worker2 from "../assets/worker2.jpeg";
-import worker3 from "../assets/worker3.jpeg";
-import worker4 from "../assets/worker4.jpeg";
-import worker5 from "../assets/worker5.png";
+import worker1 from "../assets/worker1.jpg";
+import worker2 from "../assets/worker2.jpg";
+import worker3 from "../assets/worker3.jpg";
+import worker4 from "../assets/worker4.jpg";
+import worker5 from "../assets/worker5.jpg";
+import worker6 from "../assets/worker6.jpg";
 import bg from "../assets/bg.jpg";
 import solarPanel from "../assets/solarPanel.jpeg";
 
@@ -34,6 +35,7 @@ export default function Navbar() {
       <img className="hidden" src={worker3} alt="" />
       <img className="hidden" src={worker4} alt="" />
       <img className="hidden" src={worker5} alt="" />
+      <img className="hidden" src={worker6} alt="" />
       <img className="hidden" src={bg} alt="" />
       <img className="hidden" src={solarPanel} alt="" />
 
