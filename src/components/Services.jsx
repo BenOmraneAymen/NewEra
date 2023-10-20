@@ -4,7 +4,7 @@ import Reveal from "./Reveal";
 export default function Services() {
   return (
     <div
-      className="w-screen h-screen bg-background bg-cover bg-fixed"
+      className="snap-center overflow-x-hidden shrink-0 h-screen bg-background bg-cover bg-fixed"
       id="services"
     >
       <div className="backdrop-blur-md h-full w-full flex flex-col items-center justify-between">
@@ -13,8 +13,8 @@ export default function Services() {
         </Reveal>
         <div className="h-full md:h-1/2 w-full flex flex-grow flex-col md:flex-row justify-around items-center mb-6 md:mb-28">
           <Card backgroundImage="bg-worker1" title="Installing Solar Panels" delay="0.4" />
-          <Card backgroundImage="bg-worker2" title="Repairing" delay="0.5"  />
-          <Card backgroundImage="bg-worker3" title="Maintenance" delay="0.6" />
+          <Card backgroundImage="bg-worker5" title="Repairing" delay="0.5"  />
+          <Card backgroundImage="bg-worker4" title="Maintenance" delay="0.6" />
         </div>
       </div>
     </div>

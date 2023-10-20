@@ -1,9 +1,9 @@
-import worker from "../assets/worker5.png";
+import worker from "../assets/worker6.jpg";
 import Reveal from "./Reveal";
 
 export default function Introduction() {
   return (
-    <div className="w-screen h-screen bg-slate-900" id="introduction">
+    <div className="snap-center shrink-0 w-full h-screen bg-slate-900 overflow-x-hidden" id="introduction">
       <div className="flex flex-col gap-y-9 lg:gap-y-0 lg:flex-row justify-center lg:justify-normal items-center h-full ">
         <Reveal
           delay="0.5"

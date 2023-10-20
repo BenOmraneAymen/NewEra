@@ -3,7 +3,7 @@ import Reveal from "./Reveal";
 
 export default function StaffIntro() {
   return (
-    <div className="w-screen h-screen flex flex-col lg:flex-row justify-center gap-y-10 lg:gap-0 lg:justify-around items-center bg-gradient-to-r from-orange-400 via-yellow-600 to-yellow-500 ">
+    <div className="snap-center overflow-x-hidden shrink-0 w-full h-screen flex flex-col lg:flex-row justify-center gap-y-10 lg:gap-0 lg:justify-around items-center bg-gradient-to-r from-orange-400 via-yellow-600 to-yellow-500 ">
       <Reveal
         delay="0.5"
         hidden={{ opacity: 0, x: -200 }}

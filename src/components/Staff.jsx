@@ -1,10 +1,10 @@
-import ceo from "../assets/ceo.jpeg";
+import ceo from "../assets/ceo.jpg";
 import Reveal from "./Reveal";
 
 export default function Staff() {
   return (
     <div
-      className="w-screen h-screen bg-blue-950 flex flex-col items-center"
+      className="snap-center overflow-x-hidden shrink-0 w-full h-screen bg-blue-950 flex flex-col items-center"
       id="staff"
     >
       <Reveal delay="0.5" hidden={{ opacity: 0 }} visible={{ opacity: 1 }}>

@@ -3,7 +3,7 @@ import Reveal from "./Reveal";
 
 export default function Statistics() {
   return (
-    <div className="bg-solarPanel flex justify-center items-center  bg-cover w-screen h-screen">
+    <div className="snap-center overflow-x-hidden shrink-0 bg-solarPanel flex justify-center items-center  bg-cover w-full h-screen">
       <div className=" md:w-full backdrop-blur-sm flex justify-around items-start md:items-center">
         <Reveal
           delay="0.5"

@@ -10,7 +10,7 @@ import solarPanel from "../assets/solarPanel.jpeg";
 
 export default function Navbar() {
   return (
-    <div className="w-screen h-20 fixed top-0 left-0 z-50 flex items-center justify-between backdrop-blur-sm bg-opacity-50">
+    <div className="overflow-x-hidden w-full h-20 fixed top-0 left-0 z-50 flex items-center justify-between backdrop-blur-sm bg-opacity-50 p-4">
       <a href="#landing" >
         <img src={logo} alt="" className="h-24 mx-6" />
       </a>
