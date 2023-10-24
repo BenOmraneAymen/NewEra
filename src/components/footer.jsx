@@ -33,7 +33,7 @@ export default function Footer() {
                   href="mailto:mail"
                   className="text-slate-300 font-medium text-base"
                 >
-                  mail
+                  energiesnextera@gmail.com
                 </a>
               </div>
             </div>
@@ -43,10 +43,10 @@ export default function Footer() {
               Check our social media
             </div>
             <div className="flex gap-2 items-center">
-              <img src={facebook} alt="" className="w-10 h-10 " />
-              <img src={twitter} alt="" className="w-10 h-10 " />
-              <img src={linkedin} alt="" className="w-10 h-10 " />
-              <img src={instagram} alt="" className="w-10 h-10 " />
+              <a href="https://www.facebook.com/Nextera.Energies?mibextid=LQQJ4d"><img src={facebook} alt="" className="w-10 h-10 " /></a>
+              <a href="https://www.instagram.com/energiesnextera/"><img src={instagram} alt="" className="w-10 h-10 " /></a>
+              <a href=""><img src={linkedin} alt="" className="w-10 h-10 " /></a>
+              <a href=""><img src={twitter} alt="" className="w-10 h-10 " /></a>
             </div>
           </div>
         </div>
@@ -56,10 +56,10 @@ export default function Footer() {
               Check our social media
             </div>
             <div className="flex gap-2 items-center">
-              <img src={facebook} alt="" className="w-10 h-10 " />
-              <img src={twitter} alt="" className="w-10 h-10 " />
-              <img src={linkedin} alt="" className="w-10 h-10 " />
-              <img src={instagram} alt="" className="w-10 h-10 " />
+              <a href="https://www.facebook.com/Nextera.Energies?mibextid=LQQJ4d"><img src={facebook} alt="" className="w-10 h-10 " /></a>
+              <a href="https://www.instagram.com/energiesnextera/"><img src={instagram} alt="" className="w-10 h-10 " /></a>
+              <a href=""><img src={linkedin} alt="" className="w-10 h-10 " /></a>
+              <a href=""><img src={twitter} alt="" className="w-10 h-10 " /></a>
             </div>
           </div>
       <div className="bg-back w-full h-20 self-end flex items-center justify-center text-slate-300 border-t-2 border-slate-300">
