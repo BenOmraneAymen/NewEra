@@ -1,7 +1,9 @@
+import { useTranslation } from "react-i18next";
 import ceo from "../assets/ceo.jpg";
 import Reveal from "./Reveal";
 
 export default function Staff() {
+  const {t} = useTranslation();
   return (
     <div
       className="snap-center overflow-x-hidden shrink-0 w-full h-screen bg-blue-950 flex flex-col items-center"
@@ -12,7 +14,7 @@ export default function Staff() {
       </Reveal>
       <Reveal delay="0.75" hidden={{ opacity: 0 , y:100}} visible={{ opacity: 1 ,y:0}}>
         <div className="text-3xl lg:text-5xl font-medium text-slate-200 mb-10">
-          Meet our Ceo
+          {t('staff')}
         </div>
       </Reveal>
       <Reveal delay="0.75" hidden={{ opacity: 0 }} visible={{ opacity: 1 }}>

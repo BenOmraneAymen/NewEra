@@ -15,7 +15,7 @@ export default function Card({ backgroundImage, title, delay }) {
             backgroundImage
           }
         >
-          <div className="w-52 lg:w-60 lg:h-12 flex items-center justify-center self-end mb-6 bg-primary text-white font-medium text-lg rounded-xl">
+          <div className="w-52 lg:w-60 lg:h-14  flex items-center justify-center self-end mb-6 bg-primary text-white font-medium text-base rounded-xl text-center ">
             {title}
           </div>
         </div>

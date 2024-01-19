@@ -2,10 +2,6 @@ import { motion, useAnimation, useInView } from "framer-motion";
 import { useEffect, useRef } from "react";
 
 export default function Reveal({ children, delay, hidden, visible, className }) {
-  console.log(delay);
-  console.log(hidden);
-  console.log(visible);
-
 
   const ref = useRef(null);
 

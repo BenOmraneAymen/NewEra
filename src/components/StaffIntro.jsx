@@ -1,7 +1,9 @@
+import { useTranslation } from "react-i18next";
 import ceo2 from "../assets/ceo2.png";
 import Reveal from "./Reveal";
 
 export default function StaffIntro() {
+  const { t } = useTranslation();
   return (
     <div className="snap-center overflow-x-hidden shrink-0 w-full h-screen flex flex-col lg:flex-row justify-center gap-y-10 lg:gap-0 lg:justify-around items-center bg-gradient-to-r from-orange-400 via-yellow-600 to-yellow-500 ">
       <Reveal
@@ -11,8 +13,7 @@ export default function StaffIntro() {
         className=""
       >
         <h2 className="text-center lg:text-left text-xl lg:text-3xl font-medium text-slate-200 md:w-160 lg:w-180">
-          A dedicated professional consistently staying abreast of emerging
-          technologies in solar power to drive innovation and sustainability.
+          {t("staffIntro")}
         </h2>
       </Reveal>
       <Reveal

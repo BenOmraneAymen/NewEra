@@ -15,7 +15,7 @@ function App() {
         rel="stylesheet"
         href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0"
       />
-      <div className="h-screen w-screen snap-y snap-mandatory overflow-y-scroll" id="container" >
+      <div className="h-screen w-screen overflow-y-scroll" id="container">
         <Navbar />
         <LandingPage />
         <Introduction />

@@ -1,0 +1,25 @@
+let translationEN = {
+  nav1: "Our company",
+  nav2: "Services",
+  nav3: "Why use solar energy?",
+  nav4: "Staff",
+  introduction: "Empowering a sustainable future through innovative",
+  introduction2: "solar solutions",
+  services: "Our Services",
+  service1: "Installing solar panels",
+  service2: "Repairing solar panels",
+  service3: "Maintenance",
+  staff: "Meet our CEO",
+  staffIntro: "A dedicated professional consistently staying abreast of emerging technologies in solar power to drive innovation and sustainability.",
+  benefits: "Why use solar energy?",
+  benefit1: "Increase the value of your home",
+  benefit2: "Reduce your electricity bills",
+  benefit3: "Return on investment",
+  statistic1: "Projects",
+  statistic2: "Client satisfied",
+  statistic3: "City covered",
+  french: "French",
+  english: "English",
+}
+
+export default translationEN;
