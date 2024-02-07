@@ -1,8 +1,26 @@
 import { Dropdown } from "flowbite-react";
+import { useState } from "react";
+import { useTranslation } from "react-i18next";
+import english from "../assets/english.svg";
+import french from "../assets/french.svg.png";
 
 export default function DefaultDropdown({ className }) {
+  const { t, i18n } = useTranslation();
+
+  const changeLanguage = (lng) => {
+    i18n.changeLanguage(lng);
+    if (lng == "en") {
+      setLanguage("fr");
+    }
+    if (lng == "fr") {
+      setLanguage("en");
+    }
+  };
+
+  const [language, setLanguage] = useState("fr");
+
   return (
-    <div    className={className}>
+    <div className={className}>
       <Dropdown
         arrowIcon={false}
         label={
@@ -46,6 +64,15 @@ export default function DefaultDropdown({ className }) {
         </Dropdown.Item>
         <Dropdown.Item className="px-4 py-2 rounded-b-xl hover:bg-slate-200">
           <a href="#staff">Staff</a>
+        </Dropdown.Item>
+        <Dropdown.Item className="px-4 py-2 rounded-b-xl hover:bg-slate-200">
+          <span href="#contact" onClick={() => changeLanguage(language)} className="flex" >
+            <img
+              className="w-6 mx-3"
+              src={i18n.language == "en" ? french : english}
+            />{" "}
+            {i18n.language == "en" ? t("french") : t("english")}
+          </span>
         </Dropdown.Item>
       </Dropdown>
     </div>

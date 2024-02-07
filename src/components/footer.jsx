@@ -38,30 +38,34 @@ export default function Footer() {
               </div>
             </div>
           </div>
-          <div className="hidden md:flex w-64 flex-col">
+          <div className="hidden md:flex w-64 flex-col items-center">
             <div className="text-slate-300 font-extrabold text-lg">
               Check our social media
             </div>
             <div className="flex gap-2 items-center">
-              <a href="https://www.facebook.com/Nextera.Energies?mibextid=LQQJ4d"><img src={facebook} alt="" className="w-10 h-10 " /></a>
-              <a href="https://www.instagram.com/energiesnextera/"><img src={instagram} alt="" className="w-10 h-10 " /></a>
-              <a href=""><img src={linkedin} alt="" className="w-10 h-10 " /></a>
-              <a href=""><img src={twitter} alt="" className="w-10 h-10 " /></a>
+              <a href="https://www.facebook.com/Nextera.Energies?mibextid=LQQJ4d">
+                <img src={facebook} alt="" className="w-10 h-10 " />
+              </a>
+              <a href="https://www.instagram.com/energiesnextera/">
+                <img src={instagram} alt="" className="w-10 h-10 " />
+              </a>
             </div>
           </div>
         </div>
       </div>
       <div className="bg-back flex md:hidden w-full flex-col justify-center items-center p-4">
-            <div className="text-slate-300 font-extrabold text-lg">
-              Check our social media
-            </div>
-            <div className="flex gap-2 items-center">
-              <a href="https://www.facebook.com/Nextera.Energies?mibextid=LQQJ4d"><img src={facebook} alt="" className="w-10 h-10 " /></a>
-              <a href="https://www.instagram.com/energiesnextera/"><img src={instagram} alt="" className="w-10 h-10 " /></a>
-              <a href=""><img src={linkedin} alt="" className="w-10 h-10 " /></a>
-              <a href=""><img src={twitter} alt="" className="w-10 h-10 " /></a>
-            </div>
-          </div>
+        <div className="text-slate-300 font-extrabold text-lg text-center">
+          Check our social media
+        </div>
+        <div className="flex gap-2 items-center justify-center">
+          <a href="https://www.facebook.com/Nextera.Energies?mibextid=LQQJ4d">
+            <img src={facebook} alt="" className="w-10 h-10 " />
+          </a>
+          <a href="https://www.instagram.com/energiesnextera/">
+            <img src={instagram} alt="" className="w-10 h-10 " />
+          </a>
+        </div>
+      </div>
       <div className="bg-back w-full h-20 self-end flex items-center justify-center text-slate-300 border-t-2 border-slate-300">
         All Rights Reserved &copy; 2023
       </div>
