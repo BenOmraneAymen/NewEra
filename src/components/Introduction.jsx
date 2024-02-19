@@ -28,6 +28,7 @@ export default function Introduction() {
           className=""
         >
           <img
+          loading="lazy"
             src={worker}
             alt=""
             className=" rounded-3xl aspect-auto h-60 md:h-100 lg:h-140  my-1 lg:my-4 mx-2 lg:mx-8"

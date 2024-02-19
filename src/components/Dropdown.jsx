@@ -68,6 +68,7 @@ export default function DefaultDropdown({ className }) {
         <Dropdown.Item className="px-4 py-2 rounded-b-xl hover:bg-slate-200">
           <span href="#contact" onClick={() => changeLanguage(language)} className="flex" >
             <img
+              loading="lazy"
               className="w-6 mx-3"
               src={i18n.language == "en" ? french : english}
             />{" "}

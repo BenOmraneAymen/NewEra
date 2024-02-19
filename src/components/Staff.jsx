@@ -10,7 +10,7 @@ export default function Staff() {
       id="staff"
     >
       <Reveal delay="0.5" hidden={{ opacity: 0 }} visible={{ opacity: 1 }}>
-        <img src={ceo} alt="" className="w-72 h-72 lg:w-96 lg:h-96 rounded-full mt-20 mb-10" />
+        <img loading="lazy" src={ceo} alt="" className="w-72 h-72 lg:w-96 lg:h-96 rounded-full mt-20 mb-10" />
       </Reveal>
       <Reveal delay="0.75" hidden={{ opacity: 0 , y:100}} visible={{ opacity: 1 ,y:0}}>
         <div className="text-3xl lg:text-5xl font-medium text-slate-200 mb-10">
