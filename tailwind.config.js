@@ -43,7 +43,13 @@ export default {
         'worker6': "url('/src/assets/worker6.jpg')",
         'customer': "url('/src/assets/customer.jpeg')",
         'background': "url('/src/assets/bg.jpg')",
-      }
+      },fontSize: {
+        '2xs': '.65rem',
+        '3xs': '.55rem',
+        '4xs': '.45rem',
+        '5xs': '.35rem',
+        '6xs': '.25rem',
+      },
     },
   },
   plugins: [

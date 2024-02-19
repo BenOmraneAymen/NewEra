@@ -26,12 +26,12 @@ export default function Footer() {
                 <span class="material-symbols-outlined px-1">call</span>
                 &nbsp;+216 98 000 000
               </div>
-              <div className="flex items-center text-slate-300 font-medium text-base py-1">
+              <div className="flex items-center text-slate-300 font-medium text-xs lg:text-base py-1">
                 <span class="material-symbols-outlined px-1">mail</span>
                 &nbsp;
                 <a
                   href="mailto:mail"
-                  className="text-slate-300 font-medium text-base"
+                  className="text-slate-300 font-medium text-3xs lg:text-base "
                 >
                   energiesnextera@gmail.com
                 </a>
@@ -67,7 +67,7 @@ export default function Footer() {
         </div>
       </div>
       <div className="bg-back w-full h-20 self-end flex items-center justify-center text-slate-300 border-t-2 border-slate-300">
-        All Rights Reserved &copy; 2023
+        All Rights Reserved &copy; {new Date().getFullYear()} Next Era Energy
       </div>
     </>
   );
