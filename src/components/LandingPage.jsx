@@ -8,7 +8,7 @@ export default function LandingPage() {
         hidden={{ opacity: 0 }} 
         visible={{ opacity: 1 }}
       >
-      <img src={logo} />
+      <img src={logo} loading="lazy" />
       </Reveal>
     </div>
   );

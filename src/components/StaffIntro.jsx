@@ -22,7 +22,7 @@ export default function StaffIntro() {
         visible={{ opacity: 1, x: 0 }}
         className=""
       >
-        <img src={ceo2} alt="" className="w-100 md:w-140 lg:h-140 lg:w-160 rounded-lg shadow-black" />
+        <img loading="lazy" src={ceo2} alt="" className="w-100 md:w-140 lg:h-140 lg:w-160 rounded-lg shadow-black" />
       </Reveal>
     </div>
   );

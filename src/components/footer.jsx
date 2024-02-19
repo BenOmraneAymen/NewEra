@@ -44,10 +44,10 @@ export default function Footer() {
             </div>
             <div className="flex gap-2 items-center">
               <a href="https://www.facebook.com/Nextera.Energies?mibextid=LQQJ4d">
-                <img src={facebook} alt="" className="w-10 h-10 " />
+                <img loading="lazy" src={facebook} alt="" className="w-10 h-10 " />
               </a>
               <a href="https://www.instagram.com/energiesnextera/">
-                <img src={instagram} alt="" className="w-10 h-10 " />
+                <img loading="lazy" src={instagram} alt="" className="w-10 h-10 " />
               </a>
             </div>
           </div>
@@ -59,10 +59,10 @@ export default function Footer() {
         </div>
         <div className="flex gap-2 items-center justify-center">
           <a href="https://www.facebook.com/Nextera.Energies?mibextid=LQQJ4d">
-            <img src={facebook} alt="" className="w-10 h-10 " />
+            <img loading="lazy" src={facebook} alt="" className="w-10 h-10 " />
           </a>
           <a href="https://www.instagram.com/energiesnextera/">
-            <img src={instagram} alt="" className="w-10 h-10 " />
+            <img loading="lazy" src={instagram} alt="" className="w-10 h-10 " />
           </a>
         </div>
       </div>

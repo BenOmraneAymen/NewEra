@@ -25,7 +25,7 @@ export default function Navbar() {
   return (
     <div className="fixed top-0 left-0 w-full h-20 z-40 flex items-center justify-between bg-opacity-40 backdrop-blur-sm  p-4">
       <a href="#landing">
-        <img src={logo} alt="" className="h-24 mx-6" />
+        <img loading="lazy" src={logo} alt="" className="h-24 mx-6" />
       </a>
       <div className="w-2/3 hidden lg:flex lg:w-1/2 items-center justify-between mx-4 ">
         <div className="text-xs md:text-base font-semibold text-gray-300">
@@ -65,7 +65,7 @@ export default function Navbar() {
                       } group flex w-full items-center rounded-md px-2 py-2 text-sm cursor-pointer`}
                       onClick={() => changeLanguage("en")}
                     >
-                      <img src={english}  className="w-6 mx-3" />
+                      <img loading="lazy" src={english}  className="w-6 mx-3" />
                       {t("english")}
                     </div>
                   )}
@@ -80,7 +80,7 @@ export default function Navbar() {
                       } group flex w-full items-center rounded-md px-2 py-2 text-sm cursor-pointer`}
                       onClick={() => changeLanguage("fr")}
                     >
-                      <img src={french} className="w-6 mx-3" />
+                      <img loading="lazy" src={french} className="w-6 mx-3" />
                       {t("french")}
                     </div>
                   )}
@@ -91,14 +91,14 @@ export default function Navbar() {
         </Menu>
       </div>
       <DefaultDropdown className="block lg:hidden" />
-      <img className="hidden" src={worker1} alt="" />
-      <img className="hidden" src={worker2} alt="" />
-      <img className="hidden" src={worker3} alt="" />
-      <img className="hidden" src={worker4} alt="" />
-      <img className="hidden" src={worker5} alt="" />
-      <img className="hidden" src={worker6} alt="" />
-      <img className="hidden" src={bg} alt="" />
-      <img className="hidden" src={solarPanel} alt="" />
+      <img loading="lazy" className="hidden" src={worker1} alt="" />
+      <img loading="lazy" className="hidden" src={worker2} alt="" />
+      <img loading="lazy" className="hidden" src={worker3} alt="" />
+      <img loading="lazy" className="hidden" src={worker4} alt="" />
+      <img loading="lazy" className="hidden" src={worker5} alt="" />
+      <img loading="lazy" className="hidden" src={worker6} alt="" />
+      <img loading="lazy" className="hidden" src={bg} alt="" />
+      <img loading="lazy" className="hidden" src={solarPanel} alt="" />
     </div>
   );
 }
