@@ -4,6 +4,7 @@ import LanguageDetector from 'i18next-browser-languagedetector';
 import { initReactI18next } from 'react-i18next';
 import translationEN from './translationEN';
 import translationFR from './translationFR';
+import translationAR from './translationAR';
 
 // the translations
 
@@ -13,6 +14,9 @@ const resources = {
   },
   fr: {
     translation: translationFR
+  },
+  ar:{
+    translation: translationAR
   }
 };
 

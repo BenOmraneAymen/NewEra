@@ -10,6 +10,7 @@ let translationFR = {
     service2: "Reparation de panneaux solaires",
     service3: "Maintenance ",
     staff: "Rencontrez notre PDG",
+    ceo:"Houdhayfa Belhadj",
     staffIntro: "Un professionnel dedie qui reste constamment au courant des technologies emergentes en matiere d'energie solaire pour stimuler l'innovation et la durabilite. ",
     benefits: "Pourquoi utiliser l'energie solaire? ",
     benefit1: "Augmenter la valeur de votre maison",
@@ -20,5 +21,7 @@ let translationFR = {
     statistic3: "Ville couverte",
     french: "Francais",
     english: "Anglais",
+    arabic: "Arabe",
+    option: "Options",
 }
 export default translationFR;

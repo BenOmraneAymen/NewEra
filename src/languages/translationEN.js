@@ -10,6 +10,7 @@ let translationEN = {
   service2: "Repairing solar panels",
   service3: "Maintenance",
   staff: "Meet our CEO",
+  ceo:"Houdhayfa Belhadj",
   staffIntro: "A dedicated professional consistently staying abreast of emerging technologies in solar power to drive innovation and sustainability.",
   benefits: "Why use solar energy?",
   benefit1: "Increase the value of your home",
@@ -20,6 +21,8 @@ let translationEN = {
   statistic3: "City covered",
   french: "French",
   english: "English",
+  arabic: "Arabic",
+  option: "Options",
 }
 
 export default translationEN;

@@ -19,7 +19,7 @@ export default function Staff() {
       </Reveal>
       <Reveal delay="0.75" hidden={{ opacity: 0 }} visible={{ opacity: 1 }}>
         <div className="w-120 md:w-160 px-5 py-3 md:px-8 md:py-5 lg:px-10 lg:py-6 flex items-center justify-center mb-6 bg-secondary text-white font-medium text-4xl lg:text-5xl rounded-xl">
-          Houthayfa Belhaj
+           {t('ceo')}
         </div>
       </Reveal>
     </div>

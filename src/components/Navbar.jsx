@@ -13,7 +13,7 @@ import { Menu, Transition } from "@headlessui/react";
 import { Fragment } from "react";
 import english from "../assets/english.svg";
 import french from "../assets/french.svg.png";
-
+import arabic from "../assets/arabic.webp";
 export default function Navbar() {
   const { t, i18n } = useTranslation();
 
@@ -43,7 +43,7 @@ export default function Navbar() {
         <Menu as="div" className="relative inline-block text-left">
           <div>
             <Menu.Button className="inline-flex w-full justify-center rounded-md bg-black/20 px-4 py-2 text-sm font-medium text-white hover:bg-black/30 focus:outline-none focus-visible:ring-2 focus-visible:ring-white/75">
-              Options
+              {t('option')}
             </Menu.Button>
           </div>
           <Transition
@@ -82,6 +82,19 @@ export default function Navbar() {
                     >
                       <img loading="lazy" src={french} className="w-6 mx-3" />
                       {t("french")}
+                    </div>
+                  )}
+                </Menu.Item>
+                <Menu.Item>
+                  {({ active }) => (
+                    <div
+                      className={`${
+                        active ? "bg-blue-700 text-white" : "text-gray-900"
+                      } group flex w-full items-center rounded-md px-2 py-2 text-sm cursor-pointer`}
+                      onClick={() => changeLanguage("ar")}
+                    >
+                      <img loading="lazy" src={arabic} className="w-6 mx-3" />
+                      {t("arabic")}
                     </div>
                   )}
                 </Menu.Item>
