@@ -27,23 +27,25 @@ export default function Navbar() {
       <a href="#landing">
         <img loading="lazy" src={logo} alt="" className="h-24 mx-6" />
       </a>
-      <div className="w-2/3 hidden lg:flex lg:w-1/2 items-center justify-between mx-4 ">
-        <div className="text-xs md:text-base font-semibold text-gray-300">
-          <a href="#introduction">{t("nav1")}</a>
-        </div>
-        <div className="text-xs md:text-base font-semibold text-gray-300">
-          <a href="#services">{t("nav2")}</a>
-        </div>
-        <div className="text-xs md:text-base font-semibold text-gray-300">
-          <a href="#benefits">{t("nav3")}</a>
-        </div>
-        <div className="text-xs md:text-base font-semibold text-gray-300">
-          <a href="#staff">{t("nav4")}</a>
+      <div className="flex" >
+        <div className="w-2/3 hidden lg:flex lg:w-1/2 items-center justify-between mx-4 ">
+          <div className="text-xs md:text-base font-semibold text-gray-300">
+            <a href="#introduction">{t("nav1")}</a>
+          </div>
+          <div className="text-xs md:text-base font-semibold text-gray-300">
+            <a href="#services">{t("nav2")}</a>
+          </div>
+          <div className="text-xs md:text-base font-semibold text-gray-300">
+            <a href="#benefits">{t("nav3")}</a>
+          </div>
+          <div className="text-xs md:text-base font-semibold text-gray-300">
+            <a href="#staff">{t("nav4")}</a>
+          </div>
         </div>
         <Menu as="div" className="relative inline-block text-left">
           <div>
             <Menu.Button className="inline-flex w-full justify-center rounded-md bg-black/20 px-4 py-2 text-sm font-medium text-white hover:bg-black/30 focus:outline-none focus-visible:ring-2 focus-visible:ring-white/75">
-              {t('option')}
+              {t("option")}
             </Menu.Button>
           </div>
           <Transition
@@ -65,7 +67,7 @@ export default function Navbar() {
                       } group flex w-full items-center rounded-md px-2 py-2 text-sm cursor-pointer`}
                       onClick={() => changeLanguage("en")}
                     >
-                      <img loading="lazy" src={english}  className="w-6 mx-3" />
+                      <img loading="lazy" src={english} className="w-6 mx-3" />
                       {t("english")}
                     </div>
                   )}
@@ -102,16 +104,16 @@ export default function Navbar() {
             </Menu.Items>
           </Transition>
         </Menu>
+        <DefaultDropdown className="block lg:hidden" />
+        <img loading="lazy" className="hidden" src={worker1} alt="" />
+        <img loading="lazy" className="hidden" src={worker2} alt="" />
+        <img loading="lazy" className="hidden" src={worker3} alt="" />
+        <img loading="lazy" className="hidden" src={worker4} alt="" />
+        <img loading="lazy" className="hidden" src={worker5} alt="" />
+        <img loading="lazy" className="hidden" src={worker6} alt="" />
+        <img loading="lazy" className="hidden" src={bg} alt="" />
+        <img loading="lazy" className="hidden" src={solarPanel} alt="" />
       </div>
-      <DefaultDropdown className="block lg:hidden" />
-      <img loading="lazy" className="hidden" src={worker1} alt="" />
-      <img loading="lazy" className="hidden" src={worker2} alt="" />
-      <img loading="lazy" className="hidden" src={worker3} alt="" />
-      <img loading="lazy" className="hidden" src={worker4} alt="" />
-      <img loading="lazy" className="hidden" src={worker5} alt="" />
-      <img loading="lazy" className="hidden" src={worker6} alt="" />
-      <img loading="lazy" className="hidden" src={bg} alt="" />
-      <img loading="lazy" className="hidden" src={solarPanel} alt="" />
     </div>
   );
 }
