@@ -27,18 +27,18 @@ export default function Navbar() {
       <a href="#landing">
         <img loading="lazy" src={logo} alt="" className="h-24 mx-6" />
       </a>
-      <div className="flex" >
-        <div className="w-2/3 hidden lg:flex lg:w-1/2 items-center justify-between mx-4 ">
-          <div className="text-xs md:text-base font-semibold text-gray-300">
+      <div className="flex justify-end items-center w-2/3">
+        <div className="hidden lg:flex w-2/3 lg:w-1/2 items-center justify-between mx-4 ">
+          <div className="text-xs md:text-sm xl:text-base font-semibold text-gray-300">
             <a href="#introduction">{t("nav1")}</a>
           </div>
-          <div className="text-xs md:text-base font-semibold text-gray-300">
+          <div className="text-xs md:text-sm xl:text-base font-semibold text-gray-300">
             <a href="#services">{t("nav2")}</a>
           </div>
-          <div className="text-xs md:text-base font-semibold text-gray-300">
+          <div className="text-xs md:text-sm xl:text-base font-semibold text-gray-300">
             <a href="#benefits">{t("nav3")}</a>
           </div>
-          <div className="text-xs md:text-base font-semibold text-gray-300">
+          <div className="text-xs md:text-sm xl:text-base font-semibold text-gray-300">
             <a href="#staff">{t("nav4")}</a>
           </div>
         </div>
